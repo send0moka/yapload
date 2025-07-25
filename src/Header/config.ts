@@ -10,6 +10,33 @@ export const Header: GlobalConfig = {
   },
   fields: [
     {
+      name: 'logo',
+      type: 'upload',
+      relationTo: 'media',
+      required: false,
+      admin: {
+        description: 'Upload custom logo to replace the default Payload logo. Leave empty to use default Payload logo. Logo will automatically invert colors based on theme (dark logo for light theme, light logo for dark theme).',
+      },
+    },
+    {
+      name: 'showSearchButton',
+      type: 'checkbox',
+      label: 'Show Search Button',
+      defaultValue: true,
+      admin: {
+        description: 'Toggle to show/hide the search button in the header navigation.',
+      },
+    },
+    {
+      name: 'showThemeToggle',
+      type: 'checkbox',
+      label: 'Show Theme Toggle',
+      defaultValue: true,
+      admin: {
+        description: 'Toggle to show/hide the theme switch button in the header navigation.',
+      },
+    },
+    {
       name: 'navItems',
       type: 'array',
       fields: [

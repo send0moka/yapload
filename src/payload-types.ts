@@ -1552,6 +1552,18 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
  */
 export interface Header {
   id: number;
+  /**
+   * Upload custom logo to replace the default Payload logo. Leave empty to use default Payload logo. Logo will automatically invert colors based on theme (dark logo for light theme, light logo for dark theme).
+   */
+  logo?: (number | null) | Media;
+  /**
+   * Toggle to show/hide the search button in the header navigation.
+   */
+  showSearchButton?: boolean | null;
+  /**
+   * Toggle to show/hide the theme switch button in the header navigation.
+   */
+  showThemeToggle?: boolean | null;
   navItems?:
     | {
         link: {
@@ -1609,6 +1621,9 @@ export interface Footer {
  * via the `definition` "header_select".
  */
 export interface HeaderSelect<T extends boolean = true> {
+  logo?: T;
+  showSearchButton?: T;
+  showThemeToggle?: T;
   navItems?:
     | T
     | {
