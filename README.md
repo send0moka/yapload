@@ -1,10 +1,10 @@
-# 🚀 yapload - Enhanced Payload CMS Boilerplate
+# 🚀 Yapload - Enhanced Payload CMS Boilerplate
 
-**yapload** is a high-performance, aesthetically superior boilerplate built on top of Payload CMS. Designed for developers who demand excellence in both performance and user experience, yapload takes the robust foundation of Payload CMS and elevates it with modern enhancements.
+**Yapload** is a high-performance, aesthetically superior boilerplate built on top of Payload CMS. Designed for developers who demand excellence in both performance and user experience, Yapload takes the robust foundation of Payload CMS and elevates it with modern enhancements.
 
-## ✨ Why yapload?
+## ✨ Why Yapload?
 
-yapload isn't just another CMS template - it's a complete reimagining of what a modern content management system should be:
+Yapload isn't just another CMS template - it's a complete reimagining of what a modern content management system should be:
 
 - **🎨 Superior Aesthetics**: Beautiful, modern UI with diverse layout options
 - **⚡ Blazing Performance**: Optimized for speed with efficient data transfer and zero 504 errors
@@ -45,7 +45,7 @@ yapload isn't just another CMS template - it's a complete reimagining of what a 
 
 ## 🚀 Quick Start
 
-Get yapload up and running in minutes with these simple steps:
+Get Yapload up and running in minutes with these simple steps:
 
 ### Prerequisites
 
@@ -55,16 +55,16 @@ Get yapload up and running in minutes with these simple steps:
 
 ### Installation
 
-#### Method 1: Clone yapload (Recommended)
+#### Method 1: Clone Yapload (Recommended)
 
 ```bash
-git clone https://github.com/yourusername/yapload.git my-yapload-project
-cd my-yapload-project
+git clone https://github.com/yourusername/Yapload.git my-Yapload-project
+cd my-Yapload-project
 ```
 
 #### Method 2: Use as Template
 
-Click "Use this template" on the yapload GitHub repository to create your own copy.
+Click "Use this template" on the Yapload GitHub repository to create your own copy.
 
 ### Development Setup
 
@@ -101,7 +101,7 @@ Click "Use this template" on the yapload GitHub repository to create your own co
 
 ### Advanced Layout Builder
 
-yapload extends the standard layout builder with:
+Yapload extends the standard layout builder with:
 - **20+ New Block Types**: Advanced grids, carousels, testimonials, and more
 - **Responsive Design Tools**: Visual breakpoint management
 - **Animation Controls**: Per-block animation settings
@@ -133,7 +133,7 @@ Built-in analytics provide insights into:
 
 ## 🛠️ Technology Stack
 
-yapload is built with modern, battle-tested technologies:
+Yapload is built with modern, battle-tested technologies:
 
 ### Core Framework
 - **[Next.js 14+](https://nextjs.org/)** - React framework with App Router
@@ -161,9 +161,9 @@ yapload is built with modern, battle-tested technologies:
 - **[pnpm](https://pnpm.io/)** - Fast, efficient package manager
 - **Multiple deployment options** - Vercel, Netlify, self-hosted
 
-## 🔧 How yapload Works
+## 🔧 How Yapload Works
 
-yapload builds upon Payload CMS's solid foundation while adding powerful enhancements. The configuration is optimized for modern web applications with focus on performance, aesthetics, and user experience.
+Yapload builds upon Payload CMS's solid foundation while adding powerful enhancements. The configuration is optimized for modern web applications with focus on performance, aesthetics, and user experience.
 
 ### Collections
 
